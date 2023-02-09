@@ -5,7 +5,42 @@
     
 }
 
+.login{
+    border: none;
+}
 
+.grid_container{
+    margin-top: 5%; 
+
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    row-gap: 5px;
+    justify-content: center;
+    align-content: center;
+}
+.div1 {
+    border: solid tomato;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+
+    justify-self: center;
+}
+
+.div1:hover{
+    cursor: pointer;
+    background-color: tomato;
+    border: red;
+}
+
+.bdy_login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    justify-content: center;
+    text-align: center;
+    font-size: 200%;
+}
 
 .container{
     display: flex;
@@ -13,9 +48,16 @@
     margin-top: 10%;
 }
 
-.h1, .fa-dragon{
+.h1, .fa-dragon, .login{
     justify-content: center;
     text-align: center;
+}
+
+
+.h1{
+    margin: 0 20%;
+    border: solid teal 1px;
+    color: darkslategray;
 }
 
 .fa-dragon{
@@ -25,11 +67,6 @@
     
 }
 
-.icon1{
-    margin-left: 720px;
-    width: 100px;
-    height: 100px;
-}
 
 .fa-dragon{ 
 animation-name: parpadeo;
@@ -42,6 +79,9 @@ animation-iteration-count: infinite;
 -webkit-animation-timing-function: linear;
 -webkit-animation-iteration-count: infinite;
 }
+
+
+/* ANIMACIONES */
 
 @-moz-keyframes parpadeo{  
   0% { opacity: 1.0; }

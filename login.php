@@ -12,5 +12,8 @@
     <?php
     echo "PAGINA LOGIN: OK"
     ?>
+
+    <a class="click" href="./grid.html">click</a>
+
 </body>
 </html>

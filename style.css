@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.h1, .fa-dragon{
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-dragon{
+    margin-top: 3%;
+    font-size: 100px;
+    color: tomato;
+    
+}
+
+.icon1{
+    margin-left: 720px;
+    width: 100px;
+    height: 100px;
+}
+
+.fa-dragon{ 
+animation-name: parpadeo;
+animation-duration: 0.7s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+-webkit-animation-name:parpadeo;
+-webkit-animation-duration: 0.7s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}

@@ -13,6 +13,24 @@
     echo "PAGINA LOGIN: OK"
     ?>
 
+<div class="formularioLogin">
+    <form class="formulario" action="" method="POST">
+        <br>
+        <label for="">Usuario</label>
+        <br>
+        <input type="text" name="usu">
+        <br>
+        <br>
+        <label for="">Pass</label>
+        <br>
+        <input type="password" name="pass">
+        <br>
+        <input class="enviarLog" type="submit">
+    </form>
+    
+</div> 
+
+    <br>
     <a class="click" href="./grid.html">click</a>
 
 </body>
